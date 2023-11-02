@@ -14,8 +14,8 @@ public class Point3d extends Point {
                 '}';
     }
 
-    @Override
-    public double distance(Point p) {
-        return super.distance(p);
+
+    public double distance(Point3d p) {
+        return Math.sqrt((this.x-p.x)*(this.x-p.x)+(this.y-p.y)*(this.y-p.y)+(this.z-p.z));
     }
 }

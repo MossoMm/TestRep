@@ -10,6 +10,7 @@ public class Main {
         Point point2 = new Point(3,0);
         System.out.println(point.distance(point2));
         Point3d point3D = new Point3d(1,2,3);
+        System.out.println(point3D.distance(point3D));
         System.out.println(point3D);
         point.x=10;
         point.y=20;
